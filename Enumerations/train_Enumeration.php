@@ -22,19 +22,19 @@ function pemberianBuahIblis(buah_Iblis $buah, $namaPenerima_Bansos) {
 
     switch ($buah) {
         case buah_Iblis::Gomu_Gomu_No_Mi:
-            echo congrats($buah::Gomu_Gomu_No_Mi->name);
+            echo congrats($buah->name);
             break;
         case buah_Iblis::Mera_Mera_no_Mi:
-            echo congrats($buah::Mera_Mera_no_Mi->name);
+            echo congrats($buah->name);
             break;
         case buah_Iblis::Hito_Hito_No_Mi:
-            echo congrats($buah::Hito_Hito_No_Mi->name);
+            echo congrats($buah->name);
             break;
         case buah_Iblis::Bara_Bara_No_Mi:
-            echo congrats($buah::Bara_Bara_No_Mi->name);
+            echo congrats($buah->name);
             break;
         case buah_Iblis::Pika_Pika_No_Mi:
-            echo congrats($buah::Pika_Pika_No_Mi->name);
+            echo congrats($buah->name);
             break;
         default:
         echo "kamu Tidak Menulis Atau Pun Mengisi Sesuai Yang Ada";
